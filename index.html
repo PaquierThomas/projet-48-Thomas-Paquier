@@ -12,3 +12,30 @@
     <!-- Chargement de la librairie Alpine JS -->
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
   </head>
+
+  <body>
+      <header class="header container">
+
+        <div class="header__start">
+            <a href="/">
+              <img class="header__burger" src="public/icon/Menu burger.svg" alt="logo menu burger">
+            </a>
+          </div>
+    
+          <div class="header__end">
+    
+            <!-- Menu principal -->
+            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+              <ul class="menu__list list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="index.html"> Accueil </a></li>
+                <li class="menu__item"><a class="menu__link" href="Aheros-unique.html"> Découvre un super-héros unique... </a></li>
+                <li class="menu__item"><a class="menu__link" href="Aprobleme-concerne.html"> Un problème écologique qui te concerne</a></li>
+                <li class="menu__item"><a class="menu__link" href="Asolutions.html"> Des solutions </a></li>
+                <li class="menu__item"><a class="menu__link" href="about.html"> A propos </a></li>
+              </ul>
+            </nav>
+            <!-- Fin du menu principal -->
+    
+          </div>
+      </header>
+  </body>
