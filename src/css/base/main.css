@@ -1,0 +1,6 @@
+/* Pour enlever l'apparence par défaut des listes */
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }

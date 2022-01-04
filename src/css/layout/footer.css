@@ -1,0 +1,9 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: var(--space4x) var(--space3x);
+}
+
+.footer__mail {
+
+}
