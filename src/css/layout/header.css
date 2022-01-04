@@ -7,11 +7,9 @@
     padding: var(--space2x) var(--space3x);
     display: flex;
     justify-content: space-between;
-    background-color: white;
-  }
+}
 
-
-
-.header__logo {
-    display: block;
-  }
+.header__middle,
+.header__end{
+    display: flex;
+}

@@ -1,0 +1,33 @@
+
+.snippet__bloc{
+    position: absolute;
+    margin: 80px auto;
+    width: 250px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 5px solid #A68568;
+}
+.snippet__bloc1{
+    position: absolute;
+    margin: 80px auto;
+    width: 250px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 5px solid #A68568;
+}
+
+p, span, .snippet__bloc, .snippet__bloc1{
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-family: var(--police--titrepage);
+}
+
+.voirplus{
+    top:35px;
+}
+
+.hbloc1{
+    top: -4px;
+}
