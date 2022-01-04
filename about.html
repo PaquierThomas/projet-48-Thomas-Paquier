@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de Green Panther">
+
+    <title> Green Panther </title>
+    <!-- Déclaration de la feuille de style -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <!-- Chargement de la librairie Alpine JS -->
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+  </head>
+
+  <body>
+      <!-- En-tête du site-->
+      <header class="header container">
+
+        <!-- Bannière du site-->
+        <div class="header__start">
+            <a href="/">
+              <img class="header__burger" src="public/icon/Menu burger.svg" alt="logo menu burger">
+            </a>
+        </div>
+
+        <div class="header__end">
+            <a href="index.html">
+              <img class="header__titre" src="public/icon/Logo text.webp" alt="Nom du site Green Panther">
+            </a>
+            <a href="index.html">
+                <img class="header__logo" src="public/icon/logo site.svg" alt="logo du site">
+            </a>
+        <!-- Fin de la bannière du site -->
+
+
+            <!-- Menu principal -->
+            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+                <ul class="menu__list list-unstyled">
+                  <li class="menu__item"><a class="menu__link" href="index.html"> Accueil </a></li>
+                  <li class="menu__item"><a class="menu__link" href="Aheros-unique.html"> Découvre un super-héros unique... </a></li>
+                  <li class="menu__item"><a class="menu__link" href="Aprobleme-concerne.html"> Un problème écologique qui te concerne</a></li>
+                  <li class="menu__item"><a class="menu__link" href="Asolutions.html"> Des solutions </a></li>
+                  <li class="menu__item"><a class="menu__link" href="about.html"> A propos </a></li>
+                </ul>
+              </nav>
+              <!-- Fin du menu principal -->
+        </div>
+      </header>
+      <!-- Fin de l'en-tête du site-->
+      
+      <!-- Pied de page -->
+      <footer class="footer">
+        <div>
+            <img class="footer__logo" src="public/icon/logo site blanc footer.svg" alt="Logo du site version footer">
+
+            <p class="footer__desc">Contacte moi: <br> pierrepolj@gmail.com</p>
+
+            <img class="footer__mail" src="public/icon/mail.svg" alt="icone mail">        
+            <p class="footer__desc"> Projet réalisé dans le cadre d’un exercice pédagogique au département <u>MMI</u> de Montbéliard. </p>
+        </div>
+    </footer>
+    <!-- Fin du pied de page -->
+</body>
+</html>
