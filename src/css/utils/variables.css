@@ -1,0 +1,15 @@
+:root {
+
+    /* Color styles */
+    --rectangle-titre: rgba(212, 210, 235, 1);
+    --blanc-pour: rgba(255, 255, 255, 1);
+    --texte: rgba(0, 0, 0, 1);
+
+    /* Text-size styles */
+    --numans: 12px;
+    --dm--sans--medium: 12px;
+    --dm--sans--regular: 12px;
+    --dm--sans--bold: 12px;
+    --free-sans-texte: 12px;
+
+}
