@@ -21,3 +21,5 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 /* Components */
 @import "components/cards.css";
 @import "components/menu.css";
+
+/* Pages */
