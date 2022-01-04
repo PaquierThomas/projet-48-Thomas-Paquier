@@ -1,0 +1,10 @@
+.hpage{
+    font-family: Numans;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 375px;
+
+    
+    background: var(--rectangle--titrepage);
+}

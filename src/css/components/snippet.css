@@ -1,3 +1,19 @@
+body{
+    background-image: url("C:\Users\bptho\Desktop\projet 48 Thomas Paquier\public\img\fond.jpg");
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 700px;
+}
+
+
+.snippet__titre{
+    font-family: Young forever;
+    font-style: normal;
+    font-size:20px;
+    text-align: center;
+    width: 300px;
+    margin: 10px auto;
+}
 
 .snippet__bloc{
     position: absolute;
