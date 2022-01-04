@@ -12,7 +12,7 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 @import "utils/variables.css";
 
 /* Base */
-
+@import "base/main.css";
 /* Layout */
 @import "layout/header.css";
 @import "layout/footer.css";
