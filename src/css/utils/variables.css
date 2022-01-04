@@ -1,15 +1,30 @@
 :root {
 
     /* Color styles */
-    --rectangle-titre: rgba(212, 210, 235, 1);
-    --blanc-pour: rgba(255, 255, 255, 1);
+    --rectangle-contour: rgba(212, 210, 235, 1);
+    --couleur--footer: rgba(255, 255, 255, 1);
     --texte: rgba(0, 0, 0, 1);
+    --formulaire: #FDFDF1;
+    --titrepage: #595770;
+    --contour-rectangle--accueil: #A68568;
 
     /* Text-size styles */
+    --titre--page: 17px;
+    --texte: 16px;
+    --legende: 11px;
+    --titre--article: 18px;
+    --menu--burger: 17px;
     --numans: 12px;
     --dm--sans--medium: 12px;
     --dm--sans--regular: 12px;
     --dm--sans--bold: 12px;
     --free-sans-texte: 12px;
+
+    /* Police de texte*/
+
+    --police--texte: 'FreeSans', medium;
+    --police--titrepage: 'Numans';
+    --police--legende: 'Numans';
+    
 
 }
