@@ -34,7 +34,7 @@ body{
 
 p.snippet__bloc, span.voirplus,.snippet__bloc, .snippet__bloc1{
     position: relative;
-    top: 30px;
+    top: 19px;
     text-align: center;
     font-size: 14px;
     font-family: var(--police--titrepage);

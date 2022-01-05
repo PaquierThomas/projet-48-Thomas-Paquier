@@ -1,3 +1,11 @@
+/* Les règles typographiques générales qui s'appliquent à tout le site */
+body {
+  font-family: FreeSans;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
 /* Pour enlever l'apparence par défaut des listes */
 .list-unstyled {
     list-style: none;
@@ -5,7 +13,17 @@
     margin: 0;
   }
 
+  
 /* Permet de donner une couleur aux textes ayant la classe voirplus */
 .voirplus {
     color: rgba(171, 169, 217, 1)
+}
+
+.article__titre {
+  color: var(--titrepage);
+}
+.main{
+  background-image: url('../../../public/img/fond.jpg');
+  background-attachment: fixed;
+  background-size: cover;
 }
