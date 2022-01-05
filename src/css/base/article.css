@@ -40,11 +40,58 @@
     height: 195px;
 }
 
+/* Galerie bloc */
+
+.galerie__bloc div{
+  background: var(--couleur--rectangle);
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.galerie__bloc img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.galerie__titre{
+  text-align: center;
+  font-size: 24px ;
+  font-family: Numans;
+
+}
+
+.hgalerie,
+.hcarrousel{
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  font-family: FreeSans;  
+  margin: 5px;
+
+}
+.subhgalerie{
+  text-align: center;
+  font-size: 14px;
+  font-family: FreeSans;
+  margin: 5px;
+
+}
+.descgalerie{
+  text-align: center;
+  font-size: 16px;
+  font-family: FreeSans;
+  margin: 5px;
+
+}
+
 .article__intro,
 .article__film,
 .article__technologie{
   margin: 15px 8px;
   border: 1px solid #A7A7A7;
 }
+
 
  
