@@ -19,9 +19,9 @@
 
         <!-- Bannière du site-->
         <div class="header__start">
-            <a href="/"  aria-label="menu" aria-expanded="false" aria-controls="mainNav"
-                    @pointerdown="menuIsOpen = !menuIsOpen" 
-                    :class="menuIsOpen && 'menu-btn--open'">
+            <a href="/" 
+                @pointerdown="menuIsOpen = !menuIsOpen" 
+                :class="menuIsOpen && 'menu-btn--open'">
 
               <img class="header__burger" src="public/icon/Menu burger.svg" alt="logo menu burger">
             </a>
@@ -42,7 +42,11 @@
 
             <!-- Menu principal -->
             <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
-                <img class="menu__croix" src="public/icon/Croix.svg" alt="" >
+                <a href="/" 
+                    @pointerdown="menuIsOpen = !menuIsOpen" 
+                    :class="menuIsOpen && 'menu-btn--open'">
+                    <img class="menu__croix" src="public/icon/Croix.svg" alt="" >
+                </a>
                 <ul class="menu__list list-unstyled">
                   <li class="menu__item"><a class="menu__link" href="index.html"> Accueil </a></li>
                   <li class="menu__item"><a class="menu__link" href="Aheros-unique.html"> Découvre un super-héros unique... </a></li>
