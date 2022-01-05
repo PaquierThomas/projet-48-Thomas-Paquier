@@ -28,7 +28,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 }
 
 .menu__item {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .menu__link {
@@ -91,4 +91,24 @@ Ne pas oublier d'ajouter une transition plus haut pour l'animation */
 .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar::before,
 .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar::after {
   background-color: black;
+}
+
+/* Partie style */
+.menu__item{
+  position: relative;
+  font-family: Numans;
+  font-size: 17px;
+  text-align: center;
+  right: 22px;
+  bottom: 175px;
+  
+
+}
+
+.menu__image{
+  position: fixed;
+  width: 156px;
+  height: 324px ;
+  left: 0px;
+  bottom: 0px;
 }
