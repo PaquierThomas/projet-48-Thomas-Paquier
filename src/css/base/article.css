@@ -10,6 +10,26 @@
   }
 /* Met les marges sur les côtes des paragraphes dans "article" */
   .article p{
-    margin: 0px 15px 15px 20px;
+    margin: 0px 15px 25px 20px;
   }
-  
+
+/* Image modification taille */ 
+.imgheros1{
+    width: 295px;
+    height: 524px;
+}
+
+.imgheros2{
+    width: 346px;
+    height: 433px;
+}
+
+.imgheros3{
+    width: 262px;
+    height: 465px;
+}
+
+.imgheros4{
+    width: 346px;
+    height: 195px;
+}
