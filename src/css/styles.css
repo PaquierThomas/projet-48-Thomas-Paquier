@@ -13,6 +13,8 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 
 /* Base */
 @import "base/main.css";
+@import "base/media.css";
+@import "base/article.css";
 /* Layout */
 @import "layout/header.css";
 @import "layout/footer.css";
@@ -24,5 +26,5 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 
 /* Pages */
 
-@import "pages/Aheros-unique";
+@import "pages/Aheros-unique.css";
 @import "pages/index.css";

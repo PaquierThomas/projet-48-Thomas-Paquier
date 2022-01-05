@@ -5,6 +5,10 @@ img {
   }
   
 figcaption {
-   font-size: var(--text-sm);
+   font-size: 12px;
+   line-height: 13px;
    color: var(--gray-600);
+
+   border: 1px solid #A7A7A7;
   }
+

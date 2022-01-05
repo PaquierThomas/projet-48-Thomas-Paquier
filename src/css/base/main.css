@@ -12,18 +12,19 @@ body {
     padding: 0;
     margin: 0;
   }
-
+                      /* Page accueil */
   
 /* Permet de donner une couleur aux textes ayant la classe voirplus */
 .voirplus {
     color: rgba(171, 169, 217, 1)
 }
 
-.article__titre {
-  color: var(--titrepage);
-}
 .main{
   background-image: url('../../../public/img/fond.jpg');
   background-attachment: fixed;
   background-size: cover;
+}
+
+.imgheros {
+  text-align: center;
 }
