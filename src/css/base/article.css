@@ -40,5 +40,11 @@
     height: 195px;
 }
 
+.article__intro,
+.article__film,
+.article__technologie{
+  margin: 15px 8px;
+  border: 1px solid #A7A7A7;
+}
 
  

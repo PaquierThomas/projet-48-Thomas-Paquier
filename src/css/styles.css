@@ -7,6 +7,7 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 
 /* Vendors */
 @import "vendors/normalize.css";
+@import "vendors/gabarit.css";
 
 /* Utils */
 @import "utils/variables.css";
@@ -28,3 +29,6 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 
 @import "pages/Aheros-unique.css";
 @import "pages/index.css";
+
+/* js*/
+@import url("/src/js/fonction.js");

@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="src/css/styles.css">
     <!-- Chargement de la librairie Alpine JS -->
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <!-- Déclaration de la feuille de javascript-->
+    <script src="src/js/fonction.js"></script>
+    <!-- Chargement de la librairie Amine js-->
+    <script src="https://animejs.com/lib/anime.min.js"></script>
   </head>
 
   <body>
@@ -19,7 +23,7 @@
 
         <!-- Bannière du site-->
         <div class="header__start">
-            <a href="/" 
+            <a href="#" 
                 @pointerdown="menuIsOpen = !menuIsOpen" 
                 :class="menuIsOpen && 'menu-btn--open'">
 
@@ -42,7 +46,7 @@
 
             <!-- Menu principal -->
             <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
-                <a href="/" 
+                <a href="#" 
                     @pointerdown="menuIsOpen = !menuIsOpen" 
                     :class="menuIsOpen && 'menu-btn--open'">
                     <img class="menu__croix" src="public/icon/Croix.svg" alt="" >
@@ -79,8 +83,7 @@
 
                     <p> Black panther est un personnage qui existe depuis 1966. C’est le premier super héros noir apparu dans le 52e numéro de la revue Fantastic Four. Il est apparu sur les écrans pour la première fois dans Captain America Civil War. Mais intéressons nous au ﬁlm qui lui est dédié. Comment parler de Black Panther sans parler du Wakanda et tout ce qui le concerne </p>
                     <p> Black Panther sorti en 2018. Est un ﬁlm qui propose une vision différente des superhéros. En effet, nous avons affaire à un héros noir africain et non américain. Le Wakanda est le pays d’origine de Black Panther. C’est un pays d’Afrique et pourtant c’est plus développé. Ce ﬁlm offre une nouvelle vision du monde. Nous sommes plongés dans un autre univers, différent des autres marvel. </p>
-                
-                <section>
+                </section>
                 
                 <img class="imgheros2" src="public/img/BP_dessin.webp" alt="Image/dessin de black panther avec ses camarades">
                 <section class="article__film">
@@ -172,13 +175,14 @@
 
             <section>
                 <div class="carrousel">
-                    <span> <h2> Carrousel </h2> </span>
-                </div>
-                <!--
-                <script>
-                    .carrousel
-                </script>
-                -->
+                    <div class="images4">
+                      <img id="img1" class="image4" src="public/img/Captain-America-Civil-War.webp" alt="Cap america">
+                      <img id="img2" class="image4" src="public/img/Avengers-Age-Of-Ultron.webp" alt="age of ultron">
+                      <img id="img3" class="image4" src="public/img/Infinitywar.webp" alt="infinity war">
+                      <img id="img4" class="image4" src="public/img/Avengers endgame2 1.webp" alt="endgame">
+                    </div>
+                  </div>
+                <script>carrousel()</script>
             </section>
             
       </main>

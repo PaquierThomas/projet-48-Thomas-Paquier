@@ -1,0 +1,32 @@
+.carrousel-grid {
+    display: grid;                                    
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.carrousel {
+    grid-column: 2;
+    grid-row: 2;
+    width: 250px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.images4 {
+    position: relative;
+    Width:178px;
+    Height:254px;
+    left:0px;
+}
+
+.images4 img {
+    Width:178px;
+    Height:254px;
+}
+
+.image4 {
+    position: absolute;
+    top:-4px;
+    left:72px;
+    z-index: 0;
+}
