@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,11 +32,17 @@
             <a href="index.html">
                 <img class="header__logo" src="public/icon/logo site.svg" alt="logo du site">
             </a>
+
         <!-- Fin de la bannière du site -->
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+                    @pointerdown="menuIsOpen = !menuIsOpen" 
+                    :class="menuIsOpen && 'menu-btn--open'">
+            <span class="menu-btn__bar"></span>
+            </button>
 
 
             <!-- Menu principal -->
-            <nav class="header__menu menu" id="mainNav">
+            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
                 <ul class="menu__list list-unstyled">
                   <li class="menu__item"><a class="menu__link" href="index.html"> Accueil </a></li>
                   <li class="menu__item"><a class="menu__link" href="Aheros-unique.html"> Découvre un super-héros unique... </a></li>
