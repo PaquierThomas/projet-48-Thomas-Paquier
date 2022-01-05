@@ -1,9 +1,28 @@
 .footer {
+    font-family: Numans;
     background-color: black;
     color: white;
-    padding: var(--space4x) var(--space3x);
+    padding: 15px 25px 10px 5px;
+    
 }
 
-.footer__mail {
+.footer__logo{
+    position: relative;
+    left: 5px;
+}
+.footer__mail{
+    position: relative;
+    width: 57px;
+    left: 206px;
+    bottom: 82px;
+}
 
+.footer__desc{
+    font-size: 14px;
+    margin: 10px 10px 40px 5px;
+
+}
+.footer__desc2{
+    font-size: 12px;
+    padding-bottom: 0px;
 }
