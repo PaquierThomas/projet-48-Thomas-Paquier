@@ -7,6 +7,7 @@
     display: flex;
     z-index: 2;
     justify-content: space-between;
+    transition: all .3s ease-in-out;
 
     background: white;
     height: 65px;

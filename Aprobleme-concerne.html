@@ -19,19 +19,47 @@
 
         <!-- Bannière du site-->
         <div class="header__start">
-            <a href="/">
+            <a href="/" 
+                @pointerdown="menuIsOpen = !menuIsOpen" 
+                :class="menuIsOpen && 'menu-btn--open'">
+
               <img class="header__burger" src="public/icon/Menu burger.svg" alt="logo menu burger">
             </a>
         </div>
-
-        <div class="header__end">
+        <div class="header__middle">
             <a href="index.html">
-              <img class="header__titre" src="public/icon/Logo text.webp" alt="Nom du site Green Panther">
+                <img class="header__titre" src="public/icon/Logo text.webp" alt="Nom du site Green Panther">
             </a>
+        </div>
+        <div class="header__end">
             <a href="index.html">
                 <img class="header__logo" src="public/icon/logo site.svg" alt="logo du site">
             </a>
+
         <!-- Fin de la bannière du site -->
+            
+
+
+            <!-- Menu principal -->
+            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+                <a href="/" 
+                    @pointerdown="menuIsOpen = !menuIsOpen" 
+                    :class="menuIsOpen && 'menu-btn--open'">
+                    <img class="menu__croix" src="public/icon/Croix.svg" alt="" >
+                </a>
+                <ul class="menu__list list-unstyled">
+                  <li class="menu__item"><a class="menu__link" href="index.html"> Accueil </a></li>
+                  <li class="menu__item"><a class="menu__link" href="Aheros-unique.html"> Découvre un super-héros unique... </a></li>
+                  <li class="menu__item"><a class="menu__link" href="Aprobleme-concerne.html"> Un problème écologique qui te concerne</a></li>
+                  <li class="menu__item"><a class="menu__link" href="Asolutions.html"> Des solutions </a></li>
+                  <li class="menu__item"><a class="menu__link" href="about.html"> A propos </a></li>
+                </ul>
+                <img class="menu__image" src="public/img/bp.webp" alt="Image menu burger">
+              </nav>
+              <!-- Fin du menu principal -->
+        </div>
+      </header>
+      <!-- Fin de l'en-tête du site-->
 
 
             <!-- Menu principal -->
