@@ -1,0 +1,15 @@
+/* Met les marges sur les côtés des titres + alignement centre*/
+.article__titre {
+    text-align: center;
+    color: var(--titrepage);
+    margin: 0px 20px;
+  }
+/* Met les marges sur les côtés des légendes */
+  .article figcaption{
+    margin: 0px 20px;
+  }
+/* Met les marges sur les côtes des paragraphes dans "article" */
+  .article p{
+    margin: 0px 15px 15px 20px;
+  }
+  
