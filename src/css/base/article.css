@@ -93,5 +93,12 @@
   border: 1px solid #A7A7A7;
 }
 
-
+.article__impact,
+.article__realite,
+.article__pbpoll,
+.frise__bloc,
+.frise__bloc2{
+  margin: 15px 8px;
+  border: 1px solid #A7A7A7;
+}
  
